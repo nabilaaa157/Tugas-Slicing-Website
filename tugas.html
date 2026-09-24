@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabila Catering</title>
+
+    <link rel="stylesheet" href="tugas.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Nabila Catering</div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#paket">Paket</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">NABILA CATERING</p>
+
+            <h1>
+                Catering untuk Berbagai Acara
+            </h1>
+
+            <p>
+                Hidangan lezat dan berkualitas untuk acara kecil
+                maupun acara dengan banyak tamu.
+            </p>
+        </div>
+    </section>
+
+    <section class="section paket-section" id="paket">
+        <div class="section-title">
+            <p>PAKET CATERING</p>
+            <h2>Pilih Sesuai Kebutuhan Acara</h2>
+        </div>
+
+        <div class="paket-container">
+
+            <div class="paket-card">
+                <h3>Nasi Campur</h3>
+
+                <div class="price">
+                    Rp26.000
+                    <span>/porsi</span>
+                </div>
+
+                <ul>
+                    <li>Nasi putih</li>
+                    <li>Ayam bakar</li>
+                    <li>Mie goreng</li>
+                    <li>Telur asin</li>
+                    <li>Capcay</li>
+                    <li>Buah pisang</li>
+                </ul>
+            </div>
+
+
+            <div class="paket-card featured">
+
+                <h3>Nasi Sop</h3>
+
+                <div class="price">
+                    Rp24.000
+                    <span>/porsi</span>
+                </div>
+
+                <ul>
+                    <li>Nasi putih</li>
+                    <li>Ayam krispi</li>
+                    <li>Sop jagung</li>
+                    <li>Perkedel</li>
+                    <li>Sambel kecap</li>
+                    <li>Kerupuk</li>
+                    <li>Jeruk</li>
+                </ul>
+            </div>
+
+            <div class="paket-card featured">
+
+                <h3>Nasi Liwet</h3>
+
+                <div class="price">
+                    Rp25.000
+                    <span>/porsi</span>
+                </div>
+
+                <ul>
+                    <li>Nasi liwet</li>
+                    <li>Ayam bakar</li>
+                    <li>Orem-orem tahu tempe</li>
+                    <li>Urap-urap</li>
+                    <li>Telur bali</li>
+                    <li>Melon</li>
+                </ul>
+            </div>
+
+            <div class="paket-card featured">
+
+                <h3>Nasi Kuning</h3>
+
+                <div class="price">
+                    Rp24.000
+                    <span>/porsi</span>
+                </div>
+
+                <ul>
+                    <li>Nasi kuning</li>
+                    <li>Ayam goreng laos</li>
+                    <li>Mie goreng</li>
+                    <li>Orek tempe</li>
+                    <li>Perkedel</li>
+                    <li>Sambel</li>
+                    <li>Semangka</li>
+                </ul>
+            </div>
+
+            <div class="paket-card featured">
+
+                <h3>Nasi Daging</h3>
+
+                <div class="price">
+                    Rp28.000
+                    <span>/porsi</span>
+                </div>
+
+                <ul>
+                    <li>Nasi putih</li>
+                    <li>Semur daging / daging empal</li>
+                    <li>Bihun goreng jawa</li>
+                    <li>Tumis tahu, cecek, telur puyuh</li>
+                    <li>Sambel</li>
+                    <li>Kerupuk</li>
+                    <li>Jeruk</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section order-section" id="kontak">
+
+        <div class="section-title">
+            <p>PESAN SEKARANG</p>
+            <h2>Hitung Estimasi Pesanan</h2>
+        </div>
+
+        <div class="order-container">
+
+            <form id="orderForm">
+
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input
+                        type="text"
+                        id="nama"
+                        placeholder="Masukkan nama"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="acara">Jenis Acara</label>
+                    <input
+                        type="text"
+                        id="acara"
+                        placeholder="Contoh: Pernikahan"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="paketSelect">Paket</label>
+
+                    <select id="paketSelect" required>
+                        <option value="">-- Pilih Paket --</option>
+                        <option value="nasi campur">nasi campur - Rp26.000</option>
+                        <option value="nasi sop">nasi sop - Rp24.000</option>
+                        <option value="nasi liwet">nasi liwet - Rp25.000</option>
+                        <option value="nasi kuning">nasi kuning - Rp24.000</option>
+                        <option value="nasi daging">nasi daging - Rp28.000</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jumlah">Jumlah Porsi</label>
+
+                    <input
+                        type="number"
+                        id="jumlah"
+                        min="1"
+                        placeholder="Contoh: 100"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="btn calculate-btn">
+                    Hitung Total
+                </button>
+
+            </form>
+
+
+            <div class="result-box" id="resultBox">
+
+                <h3>Estimasi Pesanan</h3>
+
+                <p id="resultText">
+                    Isi form untuk melihat total harga.
+                </p>
+
+                <div class="total" id="totalHarga">
+                    Rp0
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <h3>NABILA CATERING</h3>
+
+        <p>
+            Catering untuk berbagai acara.
+        </p>
+
+        <div class="footer-links">
+            <span>@nabila_catering_jember |</span>
+            <span>089604281726 |</span>
+            <span>nabilakurniaputri99@gmail.com</span>
+        </div>
+
+        <p class="copyright">
+            © 2026 Nabila Catering
+        </p>
+    </footer>
+
+
+    <script src="tugas.js"></script>
+
+</body>
+</html>
