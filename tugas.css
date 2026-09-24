@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 80px 15px;
+}
+
+.hero h1 {
+    margin: 10px 0;
+}
+
+
+/* SECTION */
+
+.section {
+    padding: 50px 15px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/* PAKET */
+
+.paket-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.paket-card {
+    padding: 20px;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.paket-card ul {
+    padding-left: 20px;
+}
+
+
+/* FITUR */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* FORM */
+
+.order-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form,
+.result-box {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+}
+
+.calculate-btn {
+    padding: 8px 15px;
+}
+
+.total {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .navbar nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .paket-container,
+    .features,
+    .order-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+}
