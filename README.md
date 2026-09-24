@@ -2,8 +2,6 @@ Nabila Catering merupakan website yang dibuat untuk menampilkan paket catering d
 Teknologi yang digunakan adalah HTML, CSS, JavaScript. Terdapat beberapa fitur, yaitu tampilan berbagai paket catering, form pemesanan,
 dan perhitungan estimasi total harga secara otomatis.
 
-## Screenshot
+![Screenshot 461](Screenshot%20%28461%29.png)
 
-![Screenshot 1](Screenshot%20(454).png)
-
-![Screenshot 2](Screenshot%20(455).png)
+![Screenshot 462](Screenshot%20%28462%29.png)
